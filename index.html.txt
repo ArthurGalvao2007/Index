@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Arthur Galvão - Portfólio</title>
+  <style>
+    body {
+      background-color: #000000;
+      color: #00eaff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 40px;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    .caixas {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 40px;
+      flex-wrap: wrap;
+    }
+
+    .box {
+      background-color: #111;
+      border: 2px solid #00eaff;
+      padding: 30px;
+      width: 280px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px #00eaff55;
+    }
+
+    .box h2 {
+      color: #ffffff;
+      margin-bottom: 15px;
+    }
+
+    .box p {
+      color: #cccccc;
+      font-size: 15px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Olá, eu sou <strong>Arthur Galvão</strong></h1>
+
+  <div class="caixas">
+    <div class="box">
+      <h2>Experiências</h2>
+      <p>Ainda buscando experiência no mercado.</p>
+    </div>
+
+    <div class="box">
+      <h2>Projetos</h2>
+      <p>Projetos arquivados no PortifolioHUB no meu perfil.</p>
+    </div>
+  </div>
+</body>
+</html>
